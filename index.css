@@ -1,0 +1,92 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+body{
+    margin : 0px;
+    padding : 0px;
+    background-color : 	#091d1a;
+    font-family: helvetica;
+    color : white;
+}
+
+
+h1{
+    color : #dadada;
+    text-align: center;
+    margin: 20px 0px 5px 0px;
+    font-size: 39px;
+    text-shadow: 5px 5px 10px #083a35;
+}
+
+h5{ 
+    margin-bottom: 20px;
+    font-size: 10px;
+    font-weight: 200;
+    font-family: verdana;
+    text-align: center;
+    bottom: 5px;
+    color: rgb(10, 179, 128);
+}
+.commands-table-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67vh;
+}
+
+table{
+    border-collapse: collapse;
+    border : 2px solid #083a35;
+    font-size: 14px;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow : 10px 10px 20px #08302c;
+}
+
+
+th, td{
+    font-size: 12px;
+    line-height: 21px;
+    padding : 6px 8px;
+    text-align: left;
+}
+
+th{
+    font-size: 16px;
+    padding: 15px;
+    color: yellow;
+}
+
+td{
+    font-family: verdana;
+}
+
+.cmd{
+    /* color: rgb(255, 251, 0); */
+}
+
+tr:nth-child(even) {
+  background-color: #08221f;
+}
+
+footer{
+    background-color : #0e2926;
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    display: absolute;
+    bottom: 0px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+footer > a{
+    margin: 15px;
+}
